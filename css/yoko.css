@@ -1,0 +1,133 @@
+body {
+    background-image: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+}
+
+#mainNav.navbar-top {
+    border-bottom: 1px solid rgba(33, 37, 41, 0.1);
+    background-color: black;
+}
+
+#mainNav .navbar-tel {
+    font-style: normal;
+    font-variant-ligatures: normal;
+    font-variant-caps: normal;
+    font-variant-numeric: normal;
+    font-weight: normal;
+    font-stretch: normal;
+    font-size: 28px;
+    line-height: 46px;
+    font-family: Arial Black;
+
+    /*    font-weight: 700;
+        font-size: 1.9rem;*/
+    text-transform: uppercase;
+    color: white;
+    text-align: right;
+    /*font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;*/
+}
+
+#mainNav .navbar-menu {
+    font-weight: 700;
+    font-size: 1.2rem;
+    /*text-transform: uppercase;*/
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    text-align: center;
+    background-color: #930711;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+#mainNav .navbar-menu:focus, #mainNav .navbar-menu:focus {
+    background-color: #1e7e34;
+    color: #1c7430;
+}
+
+#mainNav .navbar-men {
+    color: #999999;
+    background: #17a2b8;
+}
+
+#mainNav ul, li {
+    display: inline;
+    padding: 0px;
+}
+
+#mainNav .season {
+    color: white;
+    display: table-cell;
+    width: 250px;;
+    text-align: center;
+    background: #930711;
+}
+
+#mainNav .season a {
+    text-decoration: none;
+    color: white;
+    font-family: Arial Black;
+    font-size: 1.2rem;
+}
+
+#mainNav .season:hover {
+    background: #5a0700;
+}
+
+#mainNav .season-null {
+    display: table-cell;
+    width: 20%;
+    text-align: center;
+    background: #930711;
+}
+
+.my-carousel {
+    margin-top: 6rem;
+}
+
+.shiny-grid {
+    text-align: center;
+    /*    margin-top: 1rem;
+        margin-bottom: 1rem;*/
+}
+
+.shiny-link, .shiny-link:hover {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-family: Arial Black;
+    /*
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    */
+}
+
+div.masthead {
+    padding-top: 2rem;
+    padding-bottom: calc(10rem - 56px);
+    /*background-image: url("../img/header.jpg");*/
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel {
+    height: 500px !important;
+    text-align: center;
+}
+
+.carousel-inner img {
+    height: 400px !important;
+    margin: 0 auto;
+}
+
+/*.carousel-indicators li {
+  border-color: #000;
+}*/
+/*
+.carousel-indicators .active {
+  background-color: #000;
+}*/
